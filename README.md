@@ -121,7 +121,7 @@ sudo make install
 yosys
 ```
 
-📸 *[Insert Yosys Screenshot Here]*  
+![Yosys Verification Screenshot](week-0/yosys-verification-screenshot.png)
 
 ---
 
