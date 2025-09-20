@@ -1,4 +1,4 @@
-<img width="716" height="420" alt="image" src="https://github.com/user-attachments/assets/4da5c4db-9d49-4c97-b2ea-28c64a7f1d64" /># 🚀 Digital VLSI SoC Design and Planning — Task 1
+# 🚀 Digital VLSI SoC Design and Planning — Task 1
 
 ---
 
