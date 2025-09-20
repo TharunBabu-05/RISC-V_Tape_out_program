@@ -1,3 +1,83 @@
+# 🚀 Digital VLSI SoC Design and Planning — Task 1
+
+---
+
+## 📖 Introduction  
+This summary walks through the **Digital VLSI SoC (System-on-Chip) design and planning process**.  
+It covers the journey from **chip modeling** to **final SoC integration**, along with verification and key takeaways for practical applications.  
+
+---
+
+## 🔧 Step 1: Chip Modeling (O1)  
+- Starts with **system specifications** using a C model.  
+- Functionality validated with a **C testbench**.  
+- Goal → verify correctness of design intent before RTL coding.  
+
+---
+
+## 🖥️ Step 2: RTL Architecture (O2)  
+- System described in **RTL (Verilog)** — the digital form of hardware.  
+- Design broken down into:  
+  - 🧠 Processor  
+  - 🔌 Peripherals / IP cores  
+- RTL is tested to ensure behavior matches the original specification.  
+
+---
+
+## 🏗️ Step 3: Synthesis & Netlist Generation  
+- RTL synthesized into a **Gate-Level Netlist (GLN)**.  
+- Outputs include:  
+  - ✅ Gate-Level Netlist  
+  - ✅ Synthesized macros  
+  - ✅ Functional analog IP models  
+
+---
+
+## 🛠️ Step 4: SoC Integration (O3)  
+- Processor, peripherals, and IPs brought together into a **System-on-Chip**.  
+- Key activities:  
+  - 📐 Floorplanning  
+  - ⏱️ Clock Tree Synthesis (CTS)  
+  - 🧩 Placement & Routing  
+- Hardened macros + analog libraries added.  
+- Final product: **GDSII file** for fabrication.  
+
+---
+
+## 🔍 Step 5: Physical Verification  
+- 📝 **Design Rule Check (DRC):** ensures manufacturing rules are followed.  
+- 🧾 **Layout vs Schematic (LVS):** confirms physical layout matches schematic.  
+
+---
+
+## 🎯 Step 6: Final SoC (O4)  
+- Operating frequency: **10 MHz – 130 MHz**.  
+- Modular SoC design allows reuse for multiple applications:  
+  - ⌚ Smartwatches  
+  - ⚡ Arduino-based projects  
+  - 📺 TV panels  
+  - ❄️ AC controllers  
+
+---
+
+## 🗝️ Key Points  
+> **Flow Recap:**  
+> Specifications → RTL → Synthesis → SoC Integration → Verification → Final Chip ✅  
+
+- Verification is performed at **every stage**.  
+- Modular design = **reuse + flexibility**.  
+- Enables real-world adaptation across diverse applications.  
+
+---
+
+## ✍️ Contributor  
+**Tharun Babu V**  
+
+---
+
+
+
+
 # VSD Tools Setup & Installation
 
 This document describes the installation process for open-source tools used in VLSI design. Each section provides commands, verification steps, and space for screenshots.
