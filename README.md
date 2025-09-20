@@ -208,7 +208,7 @@ python3 -m pip --version
 make --version
 ```
 
-📸 *[Insert Version Screenshot Here]*  
+ 
 
 ---
 
